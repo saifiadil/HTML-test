@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.font{
+    margin: 4px 4px;
+    float: right;
+    padding: 7px 110px;
+  
+    
+}
+.font ul{
+    grid-gap: 30px;
+    display: flex;
+    
+   
+    
+}
+.font li{
+    grid-gap: 30px;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 10px;
+    
+}
+.font a {
+    text-decoration: none;
+    color: black;
+}
+.font li:hover{
+    background-color: red;
+}
+
+.boy{
+    padding: 90px;
+   grid-template-columns: repeat(5 , 1fr);
+   grid-template-rows: repeat(5 , 1fr);
+    row-gap: 9px !important;
+    column-gap: 35px !important;
+    display: grid;
+    position: relative;
+    right: 2px;
+    left: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bus img{
+    width: 280px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.by{
+    background-color: white;
+    color: black;
+    text-align: center;
+    position: relative;
+    bottom: 26px;
+    width: 280px;
+
+    
+}
+.gd{
+    font-weight: bold;
+ 
+   
+}
+.bys{
+    position: relative;
+    bottom: 15px;
+    width: 90px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
